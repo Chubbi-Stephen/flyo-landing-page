@@ -4,7 +4,7 @@ import Button from '../button/Button'
 
 const index = () => {
   return (
-    <div className="w-full intro">
+    <div className="w-full intro pb-[150px]">
       <img src={introBg} alt="introBg" className="w-2/5 m-auto" />
       <section className="m-auto intro-text w-2/5 text-center">
         <h1 className="text-4xl font-bold my-10 text-white">

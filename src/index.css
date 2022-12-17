@@ -11,8 +11,42 @@ body {
   background: hsl(217, 28%, 15%);
 }
 
+.intro {
+  background-image: url(../src/Assets/images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .nav-link {
   font-size: 14px;
   text-transform: capitalize;
   color: hsl(0, 0%, 100%);
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  margin-top: 2rem;
+  padding: 0.7rem 4rem;
+  background: hsl(198, 60%, 50%);
+}
+
+.intro p,
+.features p {
+  color: antiquewhite;
+}
+
+.features img {
+  width: 30%;
+  margin-bottom: 1.4rem;
+}
+
+.features h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: white;
 }
