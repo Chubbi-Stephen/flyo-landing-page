@@ -50,3 +50,17 @@ body {
   line-height: 2rem;
   color: white;
 }
+
+.card {
+  padding: 2rem;
+  background: #202a3c;
+  border-radius: 4px;
+  color: antiquewhite;
+}
+
+/* trying position the quote.png */
+.testimonials {
+  background-image: url(./Assets/images/bg-quotes.png);
+  background-position: initial;
+  background-repeat: no-repeat;
+}
