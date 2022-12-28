@@ -11,7 +11,7 @@ const index = () => {
           All your files in one secure location,
           <br /> accessible anywhere.
         </h1>
-        <p className=" text-xl text-white">
+        <p className=" text-xl text-white mb-10">
           Flyo storea all your most important files in one secure location.
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.

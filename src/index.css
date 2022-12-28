@@ -7,7 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+
+body,
+.form {
   background: hsl(217, 28%, 15%);
 }
 
@@ -29,7 +31,7 @@ body {
 
 .btn {
   color: white;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: 0.7rem 4rem;
   background: hsl(198, 60%, 50%);
 }
@@ -63,4 +65,8 @@ body {
   background-image: url(./Assets/images/bg-quotes.png);
   background-position: initial;
   background-repeat: no-repeat;
+}
+
+.footer {
+  background: hsl(216, 53%, 9%);
 }
