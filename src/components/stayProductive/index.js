@@ -6,7 +6,7 @@ const index = () => {
   return (
     <section className="bg-dark-blue flex justify-center items-center">
       <section className="stayProductive bg-dark-blue flex justify-center items-center">
-        <div className="p-8">
+        <div className="p-8 flex justify-center items-center">
           <img src={stayProductive} alt="" className="w-[90%]" />
         </div>
         <div className="flex flex-col justify-center items-start p-8 w-[33%]">

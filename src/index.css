@@ -60,7 +60,6 @@ body,
   color: antiquewhite;
 }
 
-/* trying position the quote.png */
 .testimonials {
   background-image: url(./Assets/images/bg-quotes.png);
   background-position: initial;
@@ -69,7 +68,10 @@ body,
 
 .footer {
   background: hsl(216, 53%, 9%);
+  color: antiquewhite;
 }
+
+
 
 /* MEDIA QUERIES */
 
@@ -96,20 +98,24 @@ body,
 }
 
 /* TABLETS && MOBILE */
-@media (max-width: 425px) {
+@media (max-width: 550px) {
   .nav{
-    width: 90%;
-    margin: 0;
+    width: 95%;
+    margin: auto;
     padding: 2rem 1.3rem;
     margin-bottom: 3rem;
   }
   .nav ul{
-    justify-content: space-evenly;
+    justify-content: end;
+  }
+  .nav ul li{
+    padding-left: 1.3rem;
   }
   .nav img{
     width: 30%;
     height: 30%;
   }
+
   .intro {
     width: fit-content;
   }
@@ -176,4 +182,41 @@ body,
   .icon{
     margin: auto;
   }
+
+  .footer-logo{
+    width: 40%
+  } 
+
+  /* nav{
+    margin: 0;
+  } */
+}
+
+@media (min-width: 551px) and (max-width:999px){
+  .testimonials{
+    width: 95%;
+  }
+  .form{
+    width: 90%;
+  }
+  .stayProductive > div{
+    width: 50%;
+  }
+    .footer-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+  }
+  .icon{
+    margin: auto;
+  }
+
+  .footer-logo{
+    width: 40%
+  } 
 }

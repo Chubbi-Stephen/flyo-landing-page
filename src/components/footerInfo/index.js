@@ -10,11 +10,11 @@ import { TfiEmail } from 'react-icons/tfi'
 const index = () => {
   return (
     <section className=" w-[75%] m-auto">
-      <img src={Logo} alt="Logo.svg" className="w-5%" />
+      <img src={Logo} alt="Logo.svg" className="footer-logo w-5%" />
       <section className="footer-info  flex justify-start items-start mx-4 py-[4rem] text-[antiquewhite]">
         <div className="contact flex items-start justify-start">
           <MdLocationOn />
-          <p className="pl-8 w-full text-base">
+          <p className="pl-4 w-full text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
             cum, deserunt autem quibusdam molestiae quam.
           </p>

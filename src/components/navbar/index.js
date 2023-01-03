@@ -4,8 +4,8 @@ import logo from '../../Assets/images/logo.svg'
 
 const index = () => {
   return (
-    <nav className="nav w-full flex justify-between py-20 px-16">
-      <img src={logo} alt="" className="w-50 h-14" />
+    <nav className="nav m-0 w-full flex justify-between py-20 px-16">
+      <img src={logo} alt="logo" className="w-50 h-14" />
 
       <ul className="w-96 flex justify-around">
         <li className="nav-link">feaures</li>
