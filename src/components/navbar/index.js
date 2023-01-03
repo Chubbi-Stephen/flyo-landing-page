@@ -4,7 +4,7 @@ import logo from '../../Assets/images/logo.svg'
 
 const index = () => {
   return (
-    <nav className="w-full flex justify-between py-20 px-16">
+    <nav className="nav w-full flex justify-between py-20 px-16">
       <img src={logo} alt="" className="w-50 h-14" />
 
       <ul className="w-96 flex justify-around">

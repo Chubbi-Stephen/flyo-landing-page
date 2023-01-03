@@ -17,6 +17,7 @@ body,
   background-image: url(../src/Assets/images/bg-curvy-desktop.svg);
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: contain;
 }
 
 .nav-link {
@@ -31,7 +32,6 @@ body,
 
 .btn {
   color: white;
-  /* margin-top: 2rem; */
   padding: 0.7rem 4rem;
   background: hsl(198, 60%, 50%);
 }
@@ -69,4 +69,111 @@ body,
 
 .footer {
   background: hsl(216, 53%, 9%);
+}
+
+/* MEDIA QUERIES */
+
+/* SMALLER LAPTOPS */
+@media (min-width: 1000px) and (max-width: 1228px) {
+  .stayProductive {
+    width: 80%;
+  }
+
+  .stayProductive img {
+    width: 90% !important;
+    margin: none;
+  }
+
+  .stayProductive > div {
+    width: fit-content;
+    padding: none;
+    margin: none;
+  }
+
+  .form {
+    width: 62%;
+  }
+}
+
+/* TABLETS && MOBILE */
+@media (max-width: 425px) {
+  .nav{
+    width: 90%;
+    margin: 0;
+    padding: 2rem 1.3rem;
+    margin-bottom: 3rem;
+  }
+  .nav ul{
+    justify-content: space-evenly;
+  }
+  .nav img{
+    width: 30%;
+    height: 30%;
+  }
+  .intro {
+    width: fit-content;
+  }
+  .intro img,
+  .intro-text,
+  .btn {
+    width: 80%;
+  }
+
+  .features {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stayProductive {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stayProductive div:nth-of-type(2) {
+    width: 97%;
+    margin-right: 0;
+  }
+  .stayProductive h2 {
+    display: inline;
+    font-size: 1.6rem;
+  }
+
+  .testimonials {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    width: 90%;
+    padding: 1.7rem
+  }
+
+  .form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn{
+    width: 100%;
+  }
+  
+  .footer-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .contact{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 3rem;
+  }
+  .icon{
+    margin: auto;
+  }
 }
